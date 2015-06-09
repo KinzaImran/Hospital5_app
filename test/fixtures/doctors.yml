@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  d_number: 1
+  d_name: MyString
+  d_qualification: MyString
+
+two:
+  d_number: 1
+  d_name: MyString
+  d_qualification: MyString

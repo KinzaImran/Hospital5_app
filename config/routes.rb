@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :bills
+
+  resources :medicines
+
+  resources :nurses
+
+  resources :rooms
+
   resources :treats
 
   resources :doctors

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  m_no: 1
+  manufacturing_date: 2015-06-17
+  expiry_date: 2015-06-17
+
+two:
+  m_no: 1
+  manufacturing_date: 2015-06-17
+  expiry_date: 2015-06-17

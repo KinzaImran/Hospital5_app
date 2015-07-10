@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>M no:</strong>
+  <%= @medicine.m_no %>
+</p>
+
+<p>
+  <strong>Manufacturing date:</strong>
+  <%= @medicine.manufacturing_date %>
+</p>
+
+<p>
+  <strong>Expiry date:</strong>
+  <%= @medicine.expiry_date %>
+</p>
+
+<%= link_to 'Edit', edit_medicine_path(@medicine) %> |
+<%= link_to 'Back', medicines_path %>

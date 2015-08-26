@@ -5,4 +5,7 @@
 <p>Although a hospital has many entities in it and has a huge ERD.But,here am working on three basic entities shown by the Hospital's Index page</p>
 <h2><b>INDEX PAGE</b></h2>
 <%= link_to 'Doctor', controller: 'doctors' %>
+<%= link_to 'Treat',controller: 'treats' %>
 <%= link_to 'Patient', controller: 'patients' %>
+<%= link_to 'Index', controller: '/' %>
+

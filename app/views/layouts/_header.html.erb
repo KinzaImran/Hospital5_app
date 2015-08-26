@@ -1,16 +1,24 @@
 <header>
-<%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container", id="container">
+      <nav>
+        <ul class="nav pull-right">
 <% if logged_in? %>
 <%= link_to "Log out",logout_path,method: "delete" %>
 <% else %>
 <%= link_to "Log in",login_path %>
-<% end %>
-<nav class="round">
-<ul>
-<li><%= link_to "Doctor", '/doctors' %></li>
-<li><%= link_to "Treat", '/treats' %></li>
-<li><%= link_to "Patient", '/patients' %></li>
-<li><%= link_to "Index", '/' %></li>
+
 </ul>
-</nav>
+      </nav> 
+    </div>
+  </div>
 </header>
+
+<%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+<nav class="round">
+
+</nav>
+
+</header>
+<% end %>
